@@ -1,8 +1,9 @@
-import java.util.Scanner;
+import java.util.*;
 
 public class Greedy {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
+    System.out.println("거스름돈 금액을 입력해주세요: ");
 		int change = sc.nextInt();
 		int count=0;
 		
@@ -14,5 +15,6 @@ public class Greedy {
 		}
 		System.out.println(count);
 		
+    sc.close();
 	}
 }
